@@ -1,7 +1,7 @@
 import os
 def create_file(filename):
     try: #try and error method/exception handling
-        with open(filename, 'x') as f:      #close krne ki zarurat ni pdegi is se
+        with open(filename, 'x') as f:      
             print(f"File Name {filename} is created successfully!")
     except FileExistsError:    #occurs when file already exists
         print(f"File Name {filename} already exists!")
